@@ -1,0 +1,15 @@
+name = "MyTestRegistry"
+uuid = "6820f3f1-69ad-4822-a1b9-b015351642df"
+repo = "https://github.com/JuliaRegistries/MyTestRegistry.git"
+
+description = """
+Registry for testing purposes only.
+Packages match the ones in JuliaRegistries/General but have
+messed dependencies, so they can't be loaded when installed
+from this registry.
+"""
+
+[packages]
+7876af07-990d-54b4-ab0e-23690620f79a = { name = "Example", path = "E/Example" }
+682c06a0-de6a-54ab-a142-c8b1cf79cde6 = { name = "JSON", path = "J/JSON" }
+c601a237-2ae4-5e1e-952c-7a85b0c7eef1 = { name = "Interact", path = "I/Interact" }
